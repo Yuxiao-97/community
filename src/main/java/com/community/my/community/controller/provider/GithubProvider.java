@@ -25,7 +25,6 @@ public class GithubProvider {
             String string = response.body().string();
             String[] split = string.split("&");
             String accessToken = split[0].split("=")[1];
-            System.out.println(string);
             return accessToken;
         }  catch (Exception e) {
             e.printStackTrace();
