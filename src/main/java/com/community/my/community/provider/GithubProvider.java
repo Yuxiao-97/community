@@ -1,12 +1,10 @@
-package com.community.my.community.controller.provider;
+package com.community.my.community.provider;
 
 import com.alibaba.fastjson.JSON;
-import com.community.my.community.controller.dto.AccessTokenDTO;
-import com.community.my.community.controller.dto.GithubUser;
+import com.community.my.community.dto.AccessTokenDTO;
+import com.community.my.community.dto.GithubUser;
 import okhttp3.*;
 import org.springframework.stereotype.Component;
-
-import java.io.IOException;
 
 @Component
 public class GithubProvider {
